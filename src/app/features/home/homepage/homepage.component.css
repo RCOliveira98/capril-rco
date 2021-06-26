@@ -1,0 +1,11 @@
+img {
+    max-width: 80px;
+    height: autos;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container {
+    width: 80%;
+}
