@@ -21,17 +21,17 @@ export class HomepageComponent implements OnInit {
       {
         imgUrl: '../../../../assets/image/home/dinheiro.png',
         titulo: 'Melhor custo benefício',
-        descricao: 'fdsfdjfdks dsaj fdjdifjisd sjdiajd dfjsdif fjdijf fijirj ddjfdsij'
+        descricao: 'Obtenha uma das melhores genéticas do mercado por um valor justo e acessível.'
       },
       {
         imgUrl: '../../../../assets/image/home/genetica.png',
         titulo: 'Melhoramento genético',
-        descricao: 'fdsfdjfdks dsaj fdjdifjisd sjdiajd dfjsdif fjdijf fijirj ddjfdsij'
+        descricao: 'Seleção de mais de 20 anos trabalhando com melhoramento genético!'
       },
       {
         imgUrl: '../../../../assets/image/home/qualidade.png',
         titulo: 'Qualidade',
-        descricao: 'fdsfdjfdks dsaj fdjdifjisd sjdiajd dfjsdif fjdijf fijirj ddjfdsij'
+        descricao: 'Adicione qualidade ao seu rebanho com genética de ponta!'
       }
     ]
   }

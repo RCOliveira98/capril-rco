@@ -1,0 +1,36 @@
+<form class="shadow-lg p-3" [formGroup]="form" (ngSubmit)="submit()">
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail</label>
+      <input
+      type="emailId"
+      class="form-control"
+      id="emailId"
+      formControlName="email">
+    </div>
+    <ng-container *ngIf="form.controls.email.touched">
+      <div *ngIf="form.controls.email.errors" class="alert alert-danger" role="alert">
+        E-mail obrigatório ou/e inválido!
+      </div>
+    </ng-container>
+
+    <div class="mb-3">
+      <label for="nomeId" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nomeId" formControlName="nome">
+    </div>
+    <ng-container *ngIf="form.controls.nome.touched">
+      <div *ngIf="form.controls.nome.errors" class="alert alert-danger" role="alert">
+        Nome deve ter no mínimo 05 caracteres!
+      </div>
+    </ng-container>
+
+    <div class="mb-3">
+        <label for="mensagemId" class="form-label">Mensagem</label>
+        <textarea extarea class="form-control" id="mensagemId" rows="5" formControlName="mensagem"></textarea>
+    </div>
+    <ng-container *ngIf="form.controls.mensagem.touched">
+      <div *ngIf="form.controls.mensagem.errors" class="alert alert-danger" role="alert">
+        Mensagem é obrigatório!
+      </div>
+    </ng-container>
+    <button type="submit" class="btn btn-primary" [disabled]="!form.valid">Enviar</button>
+</form>
