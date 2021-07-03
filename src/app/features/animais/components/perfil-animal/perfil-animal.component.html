@@ -1,1 +1,31 @@
-<p>perfil-animal works!</p>
+<div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">{{ animal?.nome | uppercase}}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+            <img [src]="animal?.urlImagem" class="img-fluid rounded">
+        </div>
+
+        <div class="mt-2">
+            <div class="row">
+                <p>{{ animal?.descricao }}</p>
+            </div>
+
+            <div class="row">
+              <p>{{ animal?.dataNascimento}}</p>
+            </div>
+
+          <div class="row">
+            <p>{{ animal?.descricao }}</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+</div>

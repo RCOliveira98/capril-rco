@@ -14,9 +14,19 @@
               <div class="card-body">
                 <span class="badge bg-primary">{{ animal?.nome }}</span>
                 <p class="card-text">{{ animal?.descricao}}</p>
-                <button class="btn btn-outline-primary">Abrir</button>
+                <button
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                (click)="selecionarAnimal(animal.id)"
+                >Abrir</button>
               </div>
             </div>
       </div>
   </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <app-perfil-animal [animal]="machoSelecionado"></app-perfil-animal>
 </div>

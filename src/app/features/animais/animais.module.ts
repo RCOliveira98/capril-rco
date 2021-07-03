@@ -6,10 +6,11 @@ import { ListarMachosComponent } from './components/listar-machos/listar-machos.
 import { ListarFemeasComponent } from './components/listar-femeas/listar-femeas.component';
 import { PerfilAnimalComponent } from './components/perfil-animal/perfil-animal.component';
 import { AnimaisDestaqueComponent } from './components/animais-destaque/animais-destaque.component';
+import { PerfilComponent } from './components/perfil/perfil.component';
 
 
 @NgModule({
-  declarations: [ListarMachosComponent, ListarFemeasComponent, PerfilAnimalComponent, AnimaisDestaqueComponent],
+  declarations: [ListarMachosComponent, ListarFemeasComponent, PerfilAnimalComponent, AnimaisDestaqueComponent, PerfilComponent],
   imports: [
     CommonModule,
     AnimaisRoutingModule
