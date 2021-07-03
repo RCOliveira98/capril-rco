@@ -1,23 +1,34 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { UtilsService } from 'src/app/services/utils.service';
 import { Racas } from 'src/app/shared/enums/raca.enum';
 import { sexo } from 'src/app/shared/enums/sexo.enum';
 import { IAnimal } from '../../models/animal.model';
+import { AnimaisService } from '../../services/animais.service';
 
 @Component({
   selector: 'app-listar-machos',
   templateUrl: './listar-machos.component.html',
   styleUrls: ['./listar-machos.component.css']
 })
-export class ListarMachosComponent implements OnInit {
+export class ListarMachosComponent implements OnInit, OnDestroy {
 
   public listaMachos: IAnimal[];
   public machoSelecionado: IAnimal;
   public imagemDefault: string = '../../../../../assets/image/animais/macho1.jpg'
+  private _inscricao$: Subscription;
 
-  constructor() { }
+  constructor(
+    private _animaisService: AnimaisService,
+    private _utilsService: UtilsService
+    ) { }
 
   ngOnInit(): void {
     this._buscarAnimais();
+  }
+
+  ngOnDestroy(): void {
+    this._utilsService.removerInscricao(this._inscricao$);
   }
 
   public selecionarAnimal(idAnimal: number): void {
@@ -25,80 +36,11 @@ export class ListarMachosComponent implements OnInit {
   }
 
   private _buscarAnimais(): void {
-    this.listaMachos = [
-      {
-        id: 1,
-        nome: 'Isidoro da morro verde',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho2.jpg'
-      },
-      {
-        id: 2,
-        nome: 'Padre do MV',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho3.jpg'
-      },
-      {
-        id: 3,
-        nome: 'Blad do JKM',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho1.jpg'
-      },
-      {
-        id: 4,
-        nome: 'Maluco da morro verde',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho2.jpg'
-      },
-      {
-        id: 5,
-        nome: 'Belo da novo mundo',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho4.jpg'
-      },
-      {
-        id: 6,
-        nome: 'Impressionante da peste',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho1.jpg'
-      },
-      {
-        id: 7,
-        nome: 'Fulminante do zé',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho4.jpg'
-      },
-      {
-        id: 8,
-        nome: 'Picasso da novo mundo',
-        raca: Racas['Anglo-nubiano'],
-        sexo: sexo.Macho,
-        descricao: 'animal isso e aquilo',
-        dataNascimento: new Date(),
-        urlImagem: '../../../../../assets/image/animais/macho3.jpg'
-      }
-    ];
+    this._inscricao$ = this._animaisService.selecionarReprodutores()
+    .subscribe(
+      (reprodutores: IAnimal[]) => this.listaMachos = reprodutores,
+      (error) => console.error(error)
+      )
   }
 
 }

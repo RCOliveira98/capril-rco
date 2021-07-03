@@ -1,0 +1,87 @@
+{
+    "animais": [],
+    "femeas": [],
+    "machos": [
+        {
+          "id": 1,
+          "nome": "Isidoro da morro verde",
+          "raca": 1,
+          "sexo": 1,
+          "descricao": "animal isso e aquilo",
+          "dataNascimento": "new Date()",
+          "urlImagem": "../../../../../assets/image/animais/macho2.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Padre do MV",
+          "raca": 1,
+          "sexo": 1,
+          "descricao": "animal isso e aquilo",
+          "dataNascimento": "new Date()",
+          "urlImagem": "../../../../../assets/image/animais/macho3.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Genaral da RFF",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho1.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Arqueiro do túlio",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho2.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "RCO Forte IA",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho4.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "RCO Meteoro",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho3.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Poderoso da Maria",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho4.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "RCO Spartano",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho1.jpg"
+        },
+        {
+            "id": 9,
+            "nome": "RCO Templário",
+            "raca": 1,
+            "sexo": 1,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/macho2.jpg"
+        }
+      ]
+}
