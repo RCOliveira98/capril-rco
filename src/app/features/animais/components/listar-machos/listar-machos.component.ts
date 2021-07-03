@@ -31,10 +31,6 @@ export class ListarMachosComponent implements OnInit, OnDestroy {
     this._utilsService.removerInscricao(this._inscricao$);
   }
 
-  public selecionarAnimal(idAnimal: number): void {
-    this.machoSelecionado = this.listaMachos.find(animal => animal.id == idAnimal);
-  }
-
   private _buscarAnimais(): void {
     this._inscricao$ = this._animaisService.selecionarReprodutores()
     .subscribe(

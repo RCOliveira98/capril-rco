@@ -19,4 +19,8 @@ export class AnimaisService {
   selecionarReprodutores(): Observable<IAnimal[]> {
     return this.http.get<IAnimal[]>(`${this.API}/machos`);
   }
+
+  selecionarMatrizes(): Observable<IAnimal[]> {
+    return this.http.get<IAnimal[]>(`${this.API}/femeas`);
+  }
 }

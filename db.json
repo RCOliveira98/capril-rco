@@ -1,6 +1,97 @@
 {
     "animais": [],
-    "femeas": [],
+    "femeas": [
+        {
+          "id": 1,
+          "nome": "RCO Deusa IA",
+          "raca": 1,
+          "sexo": 2,
+          "descricao": "animal isso e aquilo",
+          "dataNascimento": "new Date()",
+          "urlImagem": "../../../../../assets/image/animais/femea1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Madre da casa nova",
+          "raca": 1,
+          "sexo": 2,
+          "descricao": "animal isso e aquilo",
+          "dataNascimento": "new Date()",
+          "urlImagem": "../../../../../assets/image/animais/femea2.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "RCO Delicada",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea3.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Joia rara do recanto",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea4.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Princesa do MV",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea5.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "RCO Odalisca",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea1.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Gerusa do MV",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea2.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "RCO Coroa",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea3.jpg"
+        },
+        {
+            "id": 9,
+            "nome": "RCO Técnica",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea4.jpg"
+        },
+        {
+            "id": 10,
+            "nome": "Vila nova da 3Pontes",
+            "raca": 1,
+            "sexo": 2,
+            "descricao": "animal isso e aquilo",
+            "dataNascimento": "new Date()",
+            "urlImagem": "../../../../../assets/image/animais/femea5.jpg"
+        }
+    ],
     "machos": [
         {
           "id": 1,
@@ -83,5 +174,5 @@
             "dataNascimento": "new Date()",
             "urlImagem": "../../../../../assets/image/animais/macho2.jpg"
         }
-      ]
+    ]
 }
