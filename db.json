@@ -174,5 +174,56 @@
             "dataNascimento": "new Date()",
             "urlImagem": "../../../../../assets/image/animais/macho2.jpg"
         }
+    ],
+    "noticias": [
+        {
+            "id": 1,
+            "title": "Leilão anual Elite da raça",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Shopping nany",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Dia de campo",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Treinamento de inseminação artificial",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Leilão safiras",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Leilão estrelas da raça",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Leilão Melhor da geração",
+            "description": "O evento irá ocorrer na data de xxxx, a partir do horário xx",
+            "content": "dsjadasda dasjdashdjhas sdjasjdhjas fjnfjsnfjds fdsjfnsjdnfjsf jfsjabfjsfjsbfjdsbf sbfjsdbfjsdb fsd fsdjbfusdfahsjfhdusf fjbsdjfsdjfbadjfbajsdbf dsfiafhdihfidshfiusdh fdshfihsdafhaiudfh safidhfiudhfudsh dfshafuhidushfuidshfia asbfidsubfiudsabfiaubfiudb bfudsbfisdbfsidubf dfbisbfiusdbfiub fdsbfidusbf",
+            "imageUrl":"../../../../../assets/image/noticias/item1.jpg"
+        }
     ]
 }
